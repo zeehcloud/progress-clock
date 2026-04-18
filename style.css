@@ -1,0 +1,61 @@
+body {
+  background-color: #222222;
+}
+.label {
+  color:white;
+  font-family: 'Lexend', sans-serif;
+  text-align:left;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+.pholder {
+  width: 95%;
+  background-color: #999;
+  height: 10px;
+  margin: auto;
+}
+.master {
+  display: grid;
+  row-gap:0px;
+  grid: auto / 80% 20%;
+  vertical-align:middle;
+}
+.p {
+  width: 0%;
+  height:10px;
+  background: white;
+  transition:0.1s;
+  border-right:2px solid black;
+}
+#secondp {
+  transition:0s;
+}
+#optionholder {
+  display:grid;
+  grid: auto / 25% 25% 25% 25%;
+}
+.button {
+  align-self:center;
+  justify-self:center;
+  width:30%;
+  color:white;
+  background-color:#999;
+  border:0px;
+  font-family: 'Lexend', sans-serif;
+  cursor: pointer;
+}
+#currentthemelabel {
+  text-align:center;
+}
+#currentlayoutlabel {
+  text-align:center;
+}
+#megaholder {
+  position:absolute;
+  width:100%;
+  align-self:center;
+  top:50%;
+  transform:translate(0,-50%);
+}
